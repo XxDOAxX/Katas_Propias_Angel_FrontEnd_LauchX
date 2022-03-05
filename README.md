@@ -1,3 +1,2 @@
-# Katas_FrontEnd_Angel
-katas de frontend 
+# Katas_FrontEnd_Angel 
 Ayuda!!!! 😣 se me antojaron los tacos 🥺
