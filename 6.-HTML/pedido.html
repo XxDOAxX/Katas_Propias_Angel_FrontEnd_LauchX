@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1><b>Aqui has tu pedido</b></h1>
+    <form action="pedido.js">
+        <label for="nombre">Nombre del cliente</label><br>
+        <input type="text" id="Nombre" name="nombre" placeholder="Nombre">
+
+         <p><b>Input De Texto</b></p>
+        <label for="correo1">Input de Correo</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+
+
+        <p>Numero Teléfono</p>
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+        <br><br>
+
+        <label for="numero"><br> numero de tu pedido es(seleccióne un numero)</label><br>
+        <input type="number" name="numero" id="pedido" placeholder="4">
+
+        <br><br>
+
+        <p>fecha para apartar tu pedido</p>
+        <input type="datetime-local" id="fecha2" name="fecha2"><br>
+        
+        
+    
+        <br><br>
+        
+        <p>entrega a domicilio o entrega en mostrador</p>
+        <input type="radio" id="domicilio" name="entrega a domicilio" value="llevar">
+        <label for="llevar">llevar</label><br>
+        <input type="radio" id="entrega en local" name="entrega en mostrador" value="mostrador">
+        <label for="mostrador">mostrador</label><br>
+
+        <br><br>
+
+        <p><b>PASTELES</b></p>
+        <input type="checkbox" id="chocolate" name="pastel-de-chocolate" value="pastel-chocolate">
+        <label for="chocolate">pastel de chocolate</label><br>
+        <input type="number" name="cantidad" id="cuantos pasteles"  placeholder="20"><br>
+
+        <input type="checkbox" id="crema-con-fresas" name="pastel-de-fresas-con-crema" value="pastel crema-con-fresas">
+        <label for="crema-con-fresas">pastel-de-fresas-con-crema</label><br>
+        <input type="number" name="cantidad" id="cuantos pasteles"  placeholder="20"><br>
+
+        <input type="checkbox" id="pastel-capuchino-chocolate" name="pasatel-de-capuchino-con-chocolate" value="capuchino-chocolate">
+        <label for="pastel-capuchino-chocolate">pastel-capuchino-chocolate</label><br>        
+        <input type="number" name="cantidad" id="cuantos pasteles"  placeholder="20"><br>
+        
+        <p><b>BEBIDAS</b></p>
+        <select name="Bebidas" id="Bebidas">
+            <option value="Café">Café</option>
+            <option value="Capuchino">Café-Capuchino</option>
+            <option value="Frape">Café-Helado</option>
+            <option value="Arroz-con-Leche">Arroz-con-Ceche</option>
+            <option value="Licuado-Chocolate">Licuado-Chocolate</option>
+            <option value="Licuado-Vainilla">Licuado-Vainilla</option>
+            <option value="Licuado-Fresa">Licuado-Fresa</option>
+            <option value="Jugo-Naranja">Jugo-Naranja</option>
+            <option value="Jugo-Limon">Jugo-Limon</option>
+            <option value="Jugo-Guayaba">Jugo-Guayaba</option>
+            <option value="Jugo-Manzana">Jugo-Manzana</option>
+            <input type="number" name="cantidad" id="cuantas bebidas" placeholder="20">
+        </select><br>
+
+        <p></p>
+        <table>
+            <colgroup span=3 align="center" bgcolor="#000000"><tr></tr></colgroup>
+            <tr>
+                <th><FONT COLOR="white">Compañía</FONT></th>
+                <th><FONT COLOR="white">Contacto</FONT></th>
+                <th><FONT COLOR="white">País</FONT></th>
+            </tr>
+            <tr>
+                <td> <FONT COLOR="white">Alfreds Futterkiste</FONT></td>
+                <td><FONT COLOR="white">Maria Anders</FONT></td>
+                <td><FONT COLOR="white">Germany</FONT></td>
+            </tr>
+            <tr>
+                <td><FONT COLOR="white">Centro comercial Moctezuma</FONT></td>
+                <td><FONT COLOR="white">Francisco Chang</FONT></td>
+                <td><FONT COLOR="white">Mexico</FONT></td>
+            </tr>
+        </table>
+        <a href="./Compra-Realizada.html"> 
+            <input type="button" value="compra">
+            </a>
+    
+    
+    </form>
+
+
+</body>
+
+</html>
