@@ -1,2 +1,2 @@
 # Katas_FrontEnd_Angel 
-Ayuda!!!! 😣 se me antojaron los tacos 🥺
+Ayuda!!!! 😣💀☠ se hecho a perder mi pc 😥😥☠💀
